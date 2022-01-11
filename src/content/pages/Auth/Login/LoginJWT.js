@@ -89,7 +89,7 @@ const LoginJWT = () => {
           <TextField
             error={Boolean(touched.password && errors.password)}
             fullWidth
-            margin="normals"
+            margin="normalvhs"
             helperText={touched.password && errors.password}
             label={t('Password')}
             name="password"
